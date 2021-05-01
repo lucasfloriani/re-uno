@@ -1,0 +1,42 @@
+.reverse-icon {
+  &__triangle {
+    @apply w-0 h-0;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-color: transparent;
+    border-right-color: transparent;
+
+    &--big {
+      border-left-width: 30px;
+      border-right-width: 30px;
+      border-bottom-width: 30px;
+    }
+
+    &--small {
+      border-left-width: 8px;
+      border-right-width: 8px;
+      border-bottom-width: 8px;
+    }
+
+    &--green {
+      border-bottom-color: #4ADE80;
+    }
+
+    &--blue {
+      border-bottom-color: #3B82F6;
+    }
+
+    &--red {
+      border-bottom-color: #EF4444;
+    }
+
+    &--yellow {
+      border-bottom-color: #FEF08A;
+    }
+
+    &--white {
+      border-bottom-color: #fff;
+    }
+  }
+}

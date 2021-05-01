@@ -1,0 +1,15 @@
+.change-color-icon {
+  @apply bg-white flex items-center justify-center self-center border-white border-2;
+  border-radius: 100% 25% 100% 25%;
+  background: conic-gradient(
+    #FEF08A 18deg,
+    #4ADE80 18deg,
+    #4ADE80 90deg,
+    #3B82F6 90deg,
+    #3B82F6 198deg,
+    #EF4444 198deg,
+    #EF4444 270deg,
+    #FEF08A 270deg,
+    #FEF08A 360deg,
+  );
+}

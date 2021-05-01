@@ -1,0 +1,10 @@
+.uno-card {
+  &__content-wrapper {
+    grid-template-rows: 45px 1fr 45px;
+    grid-template-columns: 1fr;
+  }
+
+  &__main-content {
+    border-radius: 100% 25% 100% 25%;
+  }
+}
