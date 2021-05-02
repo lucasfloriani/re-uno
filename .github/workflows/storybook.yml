@@ -1,0 +1,38 @@
+name: Build and Deploy Storybook to Netlify
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+jobs:
+  build:
+    runs-on:  ubuntu-latest
+    steps:
+      # Get code from repo
+      - name: Checkout code
+        uses: actions/checkout@v1
+      # Install dependencies
+      - name: Install dependencies with yarn
+        run: yarn
+      # Build rescript
+      - name: Generate js files from rescript code
+        run: yarn run re:build
+      # Build storybook
+      - name: Build storybook
+        run: yarn run build-storybook
+      # Deploy storybook to netlify
+      - name: Deploy to Netlify
+        uses: nwtgck/actions-netlify@v1.2
+        with:
+          publish-dir: './storybook-static'
+          production-branch: main
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          deploy-message: "Deploy from GitHub Actions"
+          enable-pull-request-comment: false
+          enable-commit-comment: true
+          overwrites-pull-request-comment: true
+        env:
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
+        timeout-minutes: 1
