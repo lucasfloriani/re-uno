@@ -24,3 +24,9 @@ type cardColor =
 type size =
   | Small
   | Big
+
+type card = {
+  id: string,
+  cardContent: cardContent,
+  cardColor: cardColor,
+}

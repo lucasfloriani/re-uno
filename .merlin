@@ -1,17 +1,21 @@
 
 ####{BSB GENERATED: NO EDIT
-FLG -ppx "C:\Git\test\node_modules\bs-platform\win32\bsc.exe -as-ppx -bs-jsx 3"
-S C:\Git\test\node_modules\bs-platform\lib\ocaml
-B C:\Git\test\node_modules\bs-platform\lib\ocaml
+FLG -ppx "C:\Git\re-uno\node_modules\bs-platform\win32\bsc.exe -as-ppx -bs-jsx 3"
+S C:\Git\re-uno\node_modules\bs-platform\lib\ocaml
+B C:\Git\re-uno\node_modules\bs-platform\lib\ocaml
 FLG -w +a-4-9-20-40-41-42-50-61-102
-S C:\Git\test\node_modules\@rescript\react\lib\ocaml
-B C:\Git\test\node_modules\@rescript\react\lib\ocaml
-S C:\Git\test\node_modules\bs-storybook\lib\ocaml
-B C:\Git\test\node_modules\bs-storybook\lib\ocaml
+S C:\Git\re-uno\node_modules\@rescript\react\lib\ocaml
+B C:\Git\re-uno\node_modules\@rescript\react\lib\ocaml
+S C:\Git\re-uno\node_modules\bs-storybook\lib\ocaml
+B C:\Git\re-uno\node_modules\bs-storybook\lib\ocaml
 S src
 B lib\bs\src
+S src\utils
+B lib\bs\src\utils
 S src\types
 B lib\bs\src\types
+S src\components\UserCards
+B lib\bs\src\components\UserCards
 S src\components\UnoCard
 B lib\bs\src\components\UnoCard
 S src\components\PageNotFound

@@ -55,7 +55,7 @@ let make = (~cardContent: Common.cardContent, ~cardColor: Common.cardColor) => {
     | Yellow => "text-yellow-200"
   }
 
-  <div className="p-4 rounded shadow-md w-64 h-96">
+  <div className="p-4 rounded shadow-lg w-64 h-96 bg-white cursor-pointer transform transition-transform duration-150 hover:-translate-y-14">
     <div className=`${bgColor} h-full rounded flex flex-col justify-between grid w-full uno-card__content-wrapper`>
       <p className="font-bold font-sans text-3xl text-white p-1">
         smallContent
