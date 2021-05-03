@@ -61,7 +61,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <table>
   <tr>
     <td align="center"><a href="https://github.com/antoniel"><img src="https://avatars.githubusercontent.com/u/17225358?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Antoniel Magalhães</b></sub></a><br /><a href="https://github.com/lucasfloriani/re-uno/issues?q=author%3Aantoniel" title="Bug reports">🐛</a> <a href="https://github.com/lucasfloriani/re-uno/commits?author=antoniel" title="Code">💻</a></td>
-    <td align="center"><a href="https://portfolio.guilherme775.vercel.app/"><img src="https://avatars.githubusercontent.com/u/55771765?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Guilherme dos Reis Meira</b></sub></a><br /><a href="https://github.com/lucasfloriani/re-uno/commits?author=Guilherme775" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://portfolio.guilherme775.vercel.app/"><img src="https://avatars.githubusercontent.com/u/55771765?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Guilherme dos Reis Meira</b></sub></a><br /><a href="https://github.com/lucasfloriani/re-uno/commits?author=Guilherme775" title="Documentation">📖</a> <a href="https://github.com/lucasfloriani/re-uno/commits?author=Guilherme775" title="Code">💻</a></td>
     <td align="center"><a href="https://www.linkedin.com/in/danielcunhac/"><img src="https://avatars.githubusercontent.com/u/28742636?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Daniel Cunha</b></sub></a><br /><a href="https://github.com/lucasfloriani/re-uno/commits?author=danicunhac" title="Documentation">📖</a> <a href="https://github.com/lucasfloriani/re-uno/commits?author=danicunhac" title="Code">💻</a></td>
   </tr>
 </table>
