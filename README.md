@@ -1,4 +1,7 @@
 # Re-uno &middot; ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg) [![Build and Deploy Storybook to Netlify](https://github.com/lucasfloriani/re-uno/actions/workflows/storybook.yml/badge.svg)](https://github.com/lucasfloriani/re-uno/actions/workflows/storybook.yml)
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 Re-uno is a project using Rescript to recreate the UNO card game.
 
@@ -47,3 +50,23 @@ You can check the deployment [here](https://optimistic-wright-c012e0.netlify.app
 ### License
 
 Re-uno is [MIT licensed](./LICENSE).
+
+## Contributors ✨
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/antoniel"><img src="https://avatars.githubusercontent.com/u/17225358?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Antoniel Magalhães</b></sub></a><br /><a href="https://github.com/lucasfloriani/re-uno/issues?q=author%3Aantoniel" title="Bug reports">🐛</a> <a href="https://github.com/lucasfloriani/re-uno/commits?author=antoniel" title="Code">💻</a></td>
+  </tr>
+</table>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
