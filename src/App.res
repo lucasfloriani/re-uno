@@ -5,7 +5,7 @@ let make = () => {
   let url = RescriptReactRouter.useUrl()
 
   switch url.path {
-    | list{} => <HomePage />
-    | _ => <PageNotFound />
+  | list{} => <HomePage />
+  | _ => <PageNotFound />
   }
 }

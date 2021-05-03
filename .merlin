@@ -1,13 +1,18 @@
 
 ####{BSB GENERATED: NO EDIT
-FLG -ppx "C:\Git\re-uno\node_modules\bs-platform\win32\bsc.exe -as-ppx -bs-jsx 3"
-S C:\Git\re-uno\node_modules\bs-platform\lib\ocaml
-B C:\Git\re-uno\node_modules\bs-platform\lib\ocaml
+FLG -ppx C:\Users\guilh\estudos\re-uno\node_modules\lenses-ppx\ppx
+FLG -ppx "C:\Users\guilh\estudos\re-uno\node_modules\bs-platform\win32\bsc.exe -as-ppx -bs-jsx 3"
+S C:\Users\guilh\estudos\re-uno\node_modules\bs-platform\lib\ocaml
+B C:\Users\guilh\estudos\re-uno\node_modules\bs-platform\lib\ocaml
 FLG -w +a-4-9-20-40-41-42-50-61-102
-S C:\Git\re-uno\node_modules\@rescript\react\lib\ocaml
-B C:\Git\re-uno\node_modules\@rescript\react\lib\ocaml
-S C:\Git\re-uno\node_modules\bs-storybook\lib\ocaml
-B C:\Git\re-uno\node_modules\bs-storybook\lib\ocaml
+S C:\Users\guilh\estudos\re-uno\node_modules\@rescript\react\lib\ocaml
+B C:\Users\guilh\estudos\re-uno\node_modules\@rescript\react\lib\ocaml
+S C:\Users\guilh\estudos\re-uno\node_modules\bs-storybook\lib\ocaml
+B C:\Users\guilh\estudos\re-uno\node_modules\bs-storybook\lib\ocaml
+S C:\Users\guilh\estudos\re-uno\node_modules\@rescriptbr\reform\lib\ocaml
+B C:\Users\guilh\estudos\re-uno\node_modules\@rescriptbr\reform\lib\ocaml
+S C:\Users\guilh\estudos\re-uno\node_modules\reschema\lib\ocaml
+B C:\Users\guilh\estudos\re-uno\node_modules\reschema\lib\ocaml
 S src
 B lib\bs\src
 S src\utils
@@ -20,6 +25,8 @@ S src\components\UnoCard
 B lib\bs\src\components\UnoCard
 S src\components\PageNotFound
 B lib\bs\src\components\PageNotFound
+S src\components\Input
+B lib\bs\src\components\Input
 S src\components\Icons\ReverseIcon
 B lib\bs\src\components\Icons\ReverseIcon
 S src\components\Icons\PlusTwo
@@ -32,4 +39,8 @@ S src\components\Icons\BlockIcon
 B lib\bs\src\components\Icons\BlockIcon
 S src\components\HomePage
 B lib\bs\src\components\HomePage
+S src\components\Form
+B lib\bs\src\components\Form
+S src\components\Button
+B lib\bs\src\components\Button
 ####BSB GENERATED: NO EDIT}
