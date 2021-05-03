@@ -9,6 +9,8 @@ Re-uno is a project using Rescript to recreate the UNO card game.
   git clone https://github.com/lucasfloriani/re-uno.git
   # Installing dependencies
   yarn
+  # Starting rescript in watch mode
+  yarn run re:watch
   # Starting app
   yarn start
 
