@@ -26,3 +26,6 @@ yarn-error.log*
 # rescript
 /lib
 *.bs.js
+
+# storybook
+storybook-static
