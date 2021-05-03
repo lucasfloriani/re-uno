@@ -14,6 +14,15 @@
         "bug",
         "code"
       ]
+    },
+    {
+      "login": "danicunhac",
+      "name": "Daniel Cunha",
+      "avatar_url": "https://avatars.githubusercontent.com/u/28742636?v=4",
+      "profile": "https://www.linkedin.com/in/danielcunhac/",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,
