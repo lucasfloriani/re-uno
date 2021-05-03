@@ -45,7 +45,7 @@ If you wish to contribute and help grow Re-uno, we have a list of [good first is
 
 ## Deployment
 
-You can check the deployment [here](https://optimistic-wright-c012e0.netlify.app).
+- [Storybook](https://optimistic-wright-c012e0.netlify.app).
 
 ### License
 
