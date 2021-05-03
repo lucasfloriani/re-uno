@@ -14,6 +14,15 @@
         "bug",
         "code"
       ]
+    },
+    {
+      "login": "Guilherme775",
+      "name": "Guilherme dos Reis Meira",
+      "avatar_url": "https://avatars.githubusercontent.com/u/55771765?v=4",
+      "profile": "https://portfolio.guilherme775.vercel.app/",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,
