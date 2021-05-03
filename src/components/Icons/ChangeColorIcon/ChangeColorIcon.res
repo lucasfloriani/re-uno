@@ -1,4 +1,4 @@
-%%raw("import './changeColor.scss'")
+%%raw("import './changeColor.css'")
 
 type size = | Small | Big
 

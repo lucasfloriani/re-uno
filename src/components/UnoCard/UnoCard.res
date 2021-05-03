@@ -1,4 +1,4 @@
-%%raw("import './unoCard.scss'")
+%%raw("import './unoCard.css'")
 
 @react.component
 let make = (~cardContent: Common.cardContent, ~cardColor: Common.cardColor) => {

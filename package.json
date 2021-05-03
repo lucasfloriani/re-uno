@@ -69,7 +69,7 @@
     "bs-platform": "^9.0.2",
     "bs-storybook": "mishaszu/bs-storybook",
     "lenses-ppx": "^6.1.10",
-    "postcss": "^7",
+    "postcss-nested": "4.2.3",
     "reason-react": "^0.9.1",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat"
   }

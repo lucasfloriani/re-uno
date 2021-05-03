@@ -1,4 +1,4 @@
-%%raw("import './reverseIcon.scss'")
+%%raw("import './reverseIcon.css'")
 
 module Arrow = {
   @react.component
