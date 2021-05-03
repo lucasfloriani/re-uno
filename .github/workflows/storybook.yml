@@ -22,9 +22,9 @@ jobs:
         run: yarn --frozen-lockfile
         if: steps.yarn-cache.outputs.cache-hit != 'true'
       # Run postinstall manually when installation was skipped
-      - name: Run yarn postinstall
-        run: yarn postinstall
-        if: steps.yarn-cache.outputs.cache-hit == 'true'
+      # - name: Run yarn postinstall
+        # run: yarn postinstall
+        # if: steps.yarn-cache.outputs.cache-hit == 'true'
       # Build rescript
       - name: Generate js files from rescript code
         run: yarn run re:build
