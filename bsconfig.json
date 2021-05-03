@@ -17,6 +17,9 @@
     }
   ],
   "suffix": ".bs.js",
-  "bs-dependencies": ["@rescript/react", "bs-storybook"],
+  "bs-dependencies": ["@rescript/react", "bs-storybook", "@rescriptbr/reform", "reschema"],
+  "ppx-flags": [
+    "lenses-ppx/ppx"
+  ],
   "bs-dev-dependencies": []
 }
